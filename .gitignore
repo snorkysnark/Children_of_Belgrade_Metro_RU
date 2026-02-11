@@ -1,6 +1,4 @@
-/extracted
-/template
-/translated
+/original
+/patch
 
-*.asar
 *.bak
