@@ -4,8 +4,21 @@
 
 ## Установка
 
-В папке с установленной игрой замените файл `CBM_win/CBM-win32-x64/resources/app.asar`
-на русифицированный: [скачать здесь](https://drive.google.com/file/d/1b8l1ozhcTrMoeVQn_hMIPBHfE3HSa0Qy/view?usp=sharing).
+Разархивируйте [русификатор](https://github.com/snorkysnark/Children_of_Belgrade_Metro_RU/releases) и запустите `asar_patch.exe`.
+
+В открывшемся диалоге нужно указать расположение файла с ресурсами игры:  
+`<папка с игрой>\CBM_win\CBM-win32-x64\resources\app.asar`  
+
+![Select ASAR dialog](readme/asar_dialog.png)
+
+<details>
+<summary>Либо можно указать путь в командной строке:</summary>
+
+```
+asar_patch.exe C:\Program Files (x86)\Steam\steamapps\common\Children_of_Belgrade_Metro\CBM_win\CBM-win32-x64\resources\app.asar
+```
+
+</details>
 
 ---
 
